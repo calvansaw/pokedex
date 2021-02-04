@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<%- include('./partials/head.ejs')%>
+	</head>
+	<body>
+		<header><h1><%=pokemonObj.name%></h1></header>
+		<div>
+			<img src="<%=pokemonObj.img%>" />
+			<ul>
+				<li><%=pokemonObj.type%></li>
+				<li><%=pokemonObj.stats.hp%></li>
+				<li><%=pokemonObj.stats.attack%></li>
+				<li><%=pokemonObj.stats.defense%></li>
+			</ul>
+        </div>
+        <button><a href="/pokemon">BACK</a></button>
+	</body>
+</html>

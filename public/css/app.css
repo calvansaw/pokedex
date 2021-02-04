@@ -1,0 +1,25 @@
+/* *{
+    border: solid gold;
+} */
+header {
+	display: flex;
+	flex-direction: column;
+}
+
+.main-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.container {
+	max-width: 100px;
+	display: flex;
+	flex-direction: column;
+}
+
+#image {
+	width: 100px;
+	height: 100px;
+}
